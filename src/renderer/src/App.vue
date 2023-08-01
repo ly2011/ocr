@@ -3,7 +3,11 @@
 </script>
 
 <template>
-  <h3>Hello World!</h3>
+  <router-link to="/">Go to Home</router-link>
+  <router-link to="/about">Go to About</router-link>
+  <!-- 路由出口 -->
+  <!-- 路由匹配到的组件将渲染在这里 -->
+  <router-view></router-view>
   <!-- <Versions></Versions> -->
 
   <!-- <svg class="hero-logo" viewBox="0 0 900 300">
@@ -94,5 +98,5 @@
 </template>
 
 <style lang="less">
-@import './assets/css/styles.less';
+// @import './assets/css/styles.less';
 </style>
